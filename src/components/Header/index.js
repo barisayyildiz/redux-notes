@@ -2,10 +2,10 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 
 function Header() {
-	const store = useSelector(state => state)
+	const { counter } = useSelector(state => state)
 	return (
 		<>
-			<h1>{store}</h1>
+			<h1>{counter}</h1>
 		</>
 	)
 }
