@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { increment, incrementByAmount } from '../../redux/actions'
+import { increment, incrementByAmount } from '../../actions/counter.actions'
 
 function InputField() {
 	const [input, setInput] = useState("")

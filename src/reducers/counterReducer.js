@@ -1,6 +1,5 @@
-import redux, { createStore } from 'redux'
 
-function reducer(counter=0, action){
+function counterReducer(counter=0, action){
 	switch(action.type){
 		case "INCREMENT":
 			return counter+1
@@ -13,9 +12,4 @@ function reducer(counter=0, action){
 	}
 }
 
-const store = createStore(reducer);
-// store.subscribe(() => console.log(store))
-export default store;
-
-
-
+export default counterReducer
