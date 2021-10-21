@@ -6,7 +6,7 @@ import TodoExample from './pages/TodoExample'
 function App() {
   return (
     <div className="App">
-			<CounterExample></CounterExample>
+			{/* <CounterExample></CounterExample> */}
 			<TodoExample></TodoExample>
     </div>
   );
